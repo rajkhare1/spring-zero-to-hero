@@ -4,25 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../example2/src/main/java/com/example/main/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example3/src/main/java/com/example/main/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example5/src/main/java/com/example/main/Example5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example6/src/main/java/com/example/main/Example6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2y43MfkD9i7hotqMIxY54GG8pvs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Example1.executor": "Debug",
+    "Application.Example2.executor": "Debug",
+    "Application.Example4.executor": "Debug",
+    "Application.Example5.executor": "Debug",
+    "Application.Example6.executor": "Debug",
+    "Maven.example2 [clean].executor": "Run",
+    "Maven.example3 [clean].executor": "Run",
+    "Maven.example4 [clean].executor": "Run",
+    "Maven.example5 [clean].executor": "Run",
+    "Maven.example6 [clean].executor": "Run",
+    "Maven.example6 [verify].executor": "Run",
+    "Maven.example7 [clean].executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
+      <created>1749283006029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749283006029</updated>
+    </task>
     <servers />
   </component>
 </project>
