@@ -34,12 +34,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Example1.executor": "Debug",
+    "Application.Example10.executor": "Debug",
     "Application.Example2.executor": "Debug",
     "Application.Example4.executor": "Debug",
     "Application.Example5.executor": "Debug",
     "Application.Example6.executor": "Debug",
     "Application.Example7.executor": "Debug",
     "Application.Example8.executor": "Debug",
+    "Application.Example9.executor": "Debug",
+    "Maven.example10 [clean].executor": "Run",
     "Maven.example2 [clean].executor": "Run",
     "Maven.example3 [clean].executor": "Run",
     "Maven.example4 [clean].executor": "Run",
@@ -48,13 +51,14 @@
     "Maven.example6 [verify].executor": "Run",
     "Maven.example7 [clean].executor": "Run",
     "Maven.example8 [clean].executor": "Run",
+    "Maven.example9 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="TaskManager">
@@ -66,5 +70,16 @@
       <updated>1749283006029</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
