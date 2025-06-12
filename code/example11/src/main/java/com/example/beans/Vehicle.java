@@ -1,5 +1,6 @@
 package com.example.beans;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -9,7 +10,12 @@ public class Vehicle {
         System.out.println("Vehicle bean is created by Spring");
     }
 
-    private String name = "Toyota";
+    private String name;
+
+    @PostConstruct
+    public void initialize() {
+        this.name= "Toyota";
+    }
 
     public String getName() {
         return name;

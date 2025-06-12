@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../example11/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example11/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../example11/src/main/java/com/example/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example11/src/main/java/com/example/beans/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example11/src/main/java/com/example/beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example11/src/main/java/com/example/beans/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example11/src/main/java/com/example/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example11/src/main/java/com/example/config/ProjectConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
   "keyToString": {
     "Application.Example1.executor": "Debug",
     "Application.Example10.executor": "Debug",
+    "Application.Example11.executor": "Debug",
     "Application.Example2.executor": "Debug",
     "Application.Example4.executor": "Debug",
     "Application.Example5.executor": "Debug",
@@ -60,7 +64,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="TaskManager">

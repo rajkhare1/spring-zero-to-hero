@@ -1,12 +1,13 @@
 package com.example.beans;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Person {
 
-    private String name = "Lucy";
+    private String name;
 
     /*
     The @Autowired annotation marks on a field, constructor, Setter method
@@ -20,6 +21,11 @@ public class Person {
 
     public Person() {
         System.out.println("Person bean created by Spring");
+    }
+
+    @PostConstruct
+    public void initialize() {
+        this.name = "Lucy";
     }
 
     public String getName() {
