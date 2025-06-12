@@ -16,11 +16,14 @@ public class Person {
 
     * */
 
-    @Autowired
-    private Vehicle vehicle;
+    /*@Autowired*/
+    /*private Vehicle vehicle;*/
+    private final Vehicle vehicle;
 
-    public Person() {
+    /*@Autowired*/ // since Spring version 4.3, if only 1 constructor, then this is optional
+    public Person(Vehicle vehicle) {
         System.out.println("Person bean created by Spring");
+        this.vehicle = vehicle;
     }
 
     @PostConstruct
@@ -40,7 +43,8 @@ public class Person {
         return vehicle;
     }
 
-    public void setVehicle(Vehicle vehicle) {
+    /*@Autowired*/
+    /*public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
-    }
+    }*/
 }
