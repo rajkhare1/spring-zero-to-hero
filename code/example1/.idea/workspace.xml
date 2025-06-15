@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../example13-assignment-beans/src/main/java/com/example/main/Example13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example14/src/main/java/com/example/main/Example14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example12/src/main/java/com/example/beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example12/src/main/java/com/example/beans/Vehicle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,6 +42,8 @@
     "Application.Example10.executor": "Debug",
     "Application.Example11.executor": "Debug",
     "Application.Example12.executor": "Debug",
+    "Application.Example13.executor": "Run",
+    "Application.Example14.executor": "Debug",
     "Application.Example2.executor": "Debug",
     "Application.Example4.executor": "Debug",
     "Application.Example5.executor": "Debug",
@@ -46,6 +53,7 @@
     "Application.Example9.executor": "Debug",
     "Maven.example10 [clean].executor": "Run",
     "Maven.example12 [clean].executor": "Run",
+    "Maven.example14 [clean].executor": "Run",
     "Maven.example2 [clean].executor": "Run",
     "Maven.example3 [clean].executor": "Run",
     "Maven.example4 [clean].executor": "Run",

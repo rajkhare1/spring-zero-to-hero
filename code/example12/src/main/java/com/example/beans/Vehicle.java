@@ -1,7 +1,5 @@
 package com.example.beans;
 
-import jakarta.annotation.PostConstruct;
-
 public class Vehicle {
 
     public Vehicle() {
