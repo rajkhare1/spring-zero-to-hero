@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/main/Example17.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +56,7 @@
     "Maven.example14 [clean].executor": "Run",
     "Maven.example15 [clean].executor": "Run",
     "Maven.example16 [clean].executor": "Run",
+    "Maven.example17 [clean].executor": "Run",
     "Maven.example2 [clean].executor": "Run",
     "Maven.example3 [clean].executor": "Run",
     "Maven.example4 [clean].executor": "Run",
