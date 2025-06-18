@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example14/src/main/java/com/example/services/VehicleServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example14/src/main/java/com/example/services/VehicleServices.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,42 +32,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Example1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example10.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example11.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example12.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example13.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example14.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example4.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example5.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example6.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example7.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example8.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Example9.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.example10 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example12 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example14 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example2 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example3 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example4 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example5 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example6 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example6 [verify].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example7 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example8 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.example9 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.291954&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Example1.executor": "Debug",
+    "Application.Example10.executor": "Debug",
+    "Application.Example11.executor": "Debug",
+    "Application.Example12.executor": "Debug",
+    "Application.Example13.executor": "Run",
+    "Application.Example14.executor": "Debug",
+    "Application.Example15.executor": "Debug",
+    "Application.Example16.executor": "Debug",
+    "Application.Example2.executor": "Debug",
+    "Application.Example4.executor": "Debug",
+    "Application.Example5.executor": "Debug",
+    "Application.Example6.executor": "Debug",
+    "Application.Example7.executor": "Debug",
+    "Application.Example8.executor": "Debug",
+    "Application.Example9.executor": "Debug",
+    "Maven.example10 [clean].executor": "Run",
+    "Maven.example12 [clean].executor": "Run",
+    "Maven.example14 [clean].executor": "Run",
+    "Maven.example15 [clean].executor": "Run",
+    "Maven.example16 [clean].executor": "Run",
+    "Maven.example2 [clean].executor": "Run",
+    "Maven.example3 [clean].executor": "Run",
+    "Maven.example4 [clean].executor": "Run",
+    "Maven.example5 [clean].executor": "Run",
+    "Maven.example6 [clean].executor": "Run",
+    "Maven.example6 [verify].executor": "Run",
+    "Maven.example7 [clean].executor": "Run",
+    "Maven.example8 [clean].executor": "Run",
+    "Maven.example9 [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.291954",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
