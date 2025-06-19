@@ -9,4 +9,9 @@ public class MichelinTyres implements Tyres {
     public String rotate() {
         return "Vehicle moving with Michelin tyres";
     }
+
+    @Override
+    public String stop() {
+        return "Vehicle stopped with the help of Michelin tyres";
+    }
 }

@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/main/Example17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/beans/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/beans/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/implementations/BridgeStoneTyres.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/implementations/BridgeStoneTyres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/implementations/MichelinTyres.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/implementations/MichelinTyres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/interfaces/Tyres.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/interfaces/Tyres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/services/VehicleServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/services/VehicleServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

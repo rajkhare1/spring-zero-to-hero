@@ -25,7 +25,7 @@ public class VehicleServices {
         logger.info("method execution start");
         String music = null;
         if(vehicleStarted) {
-            music = speakers.makeSound(song);
+            music = speakers.makeSound(song);// main business code
         } else {
             logger.log(Level.SEVERE, "Vehicle not started to perform the operation");
         }
@@ -36,9 +36,38 @@ public class VehicleServices {
         return music;
     }
 
-    public void moveVehicle() {
-        String status = tyres.rotate();
-        System.out.println(status);
+    public String moveVehicle(boolean vehicleStarted) {
+        Instant start = Instant.now();
+        logger.info("method execution start");
+        String status = null;
+        if(vehicleStarted) {
+            status = tyres.rotate();
+        } else {
+            logger.log(Level.SEVERE, "Vehicle not started to perform the operation");
+        }
+        logger.info("method execution end");
+        Instant finish = Instant.now();
+        long timeElapsed = Duration.between(start,finish).toMillis();
+        logger.info("Time took to execute the method : "+timeElapsed);
+
+        return status;
+    }
+
+    public String applyBreak(boolean vehicleStarted) {
+        Instant start = Instant.now();
+        logger.info("method execution start");
+        String status = null;
+        if(vehicleStarted) {
+            status = tyres.stop();
+        } else {
+            logger.log(Level.SEVERE, "Vehicle not started to perform the operation");
+        }
+        logger.info("method execution end");
+        Instant finish = Instant.now();
+        long timeElapsed = Duration.between(start,finish).toMillis();
+        logger.info("Time took to execute the method : "+timeElapsed);
+
+        return status;
     }
 
     public Speakers getSpeakers() {
