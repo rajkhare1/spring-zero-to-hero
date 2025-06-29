@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example17/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/config/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/main/Example17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/main/Example17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example17/src/main/java/com/example/services/VehicleServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example17/src/main/java/com/example/services/VehicleServices.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
