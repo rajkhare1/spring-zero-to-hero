@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example_18/src/main/java/com/rajkhare/khareschool/Example18Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_18/src/main/java/com/rajkhare/khareschool/KhareSchoolApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_18/src/main/java/com/rajkhare/khareschool/KhareSchoolApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_18/src/main/java/com/rajkhare/khareschool/KhareSchoolApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../example_18/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../example_18/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example_18/src/test/java/com/rajkhare/khareschool/Example18ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_18/src/test/java/com/rajkhare/khareschool/KhareSchoolApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -102,17 +101,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="example_18" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="example_18" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
