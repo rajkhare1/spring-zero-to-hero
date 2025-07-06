@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../example_18/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example_18/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_19/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example_19/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_19/src/main/java/com/rajkhare/khareschool/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_19/src/main/java/com/rajkhare/khareschool/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_19/src/main/resources/static/home.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +64,7 @@
     "Application.Example7.executor": "Debug",
     "Application.Example8.executor": "Debug",
     "Application.Example9.executor": "Debug",
-    "Application.KhareSchoolApplication (1).executor": "Debug",
+    "Application.KhareSchoolApplication (1).executor": "Run",
     "Application.KhareSchoolApplication.executor": "Debug",
     "DefaultHtmlFileTemplate": "HTML File",
     "Maven.example10 [clean].executor": "Run",
@@ -81,12 +86,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "project.structure.last.edited": "Project",
+    "ignore.preview.features.used": "true",
+    "last_opened_file_path": "/Users/rajkhare/Raj/Udemy/spring-zero-to-hero/code/example_19/src/main/resources/templates",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../example_19/src/main/resources/templates" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.KhareSchoolApplication (1)">
     <configuration name="KhareSchoolApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
