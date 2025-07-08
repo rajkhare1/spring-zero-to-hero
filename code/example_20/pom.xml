@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rajkhare</groupId>
-	<artifactId>example_19</artifactId>
+	<artifactId>example_20</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>example_19</name>
+	<name>example_20</name>
 	<description>Khare School Web Application</description>
 	<url/>
 	<licenses>
