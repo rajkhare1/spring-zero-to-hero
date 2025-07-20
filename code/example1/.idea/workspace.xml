@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example_21/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_21/src/main/resources/static/assets/css/style-starter.css" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/src/main/resources/static/assets/css/style-starter.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
-    "last_opened_file_path": "/Users/rajkhare/Raj/Udemy/spring-zero-to-hero/code/example_21/src/main/resources/templates",
+    "last_opened_file_path": "/Users/rajkhare/Raj/Udemy/spring-zero-to-hero/code/example_21/src/main/resources/static/assets/css",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
@@ -95,11 +95,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../example_21/src/main/resources/static/assets/css" />
       <recent name="$PROJECT_DIR$/../example_21/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets/webfonts" />
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets/js" />
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets/images" />
-      <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets" />
@@ -187,16 +187,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/controller/ContactController.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
