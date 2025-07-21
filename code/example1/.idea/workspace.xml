@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example_21/src/main/resources/static/assets/css/style-starter.css" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/src/main/resources/static/assets/css/style-starter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_21/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/KhareSchoolApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/KhareSchoolApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/model/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/model/Holiday.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/model/Holiday.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
