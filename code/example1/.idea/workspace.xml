@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/KhareSchoolApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/KhareSchoolApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_21/src/main/java/com/rajkhare/khareschool/service/ContactService.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +62,7 @@
     "Application.Example7.executor": "Debug",
     "Application.Example8.executor": "Debug",
     "Application.Example9.executor": "Debug",
-    "Application.KhareSchoolApplication (1).executor": "Run",
+    "Application.KhareSchoolApplication (1).executor": "Debug",
     "Application.KhareSchoolApplication (2).executor": "Run",
     "Application.KhareSchoolApplication (3).executor": "Run",
     "Application.KhareSchoolApplication (4).executor": "Debug",
@@ -88,6 +85,7 @@
     "Maven.example8 [clean].executor": "Run",
     "Maven.example9 [clean].executor": "Run",
     "Maven.example_19 [clean].executor": "Run",
+    "Maven.example_24 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -111,10 +109,10 @@
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KhareSchoolApplication (5)">
-    <configuration name="KhareSchoolApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.KhareSchoolApplication (1)">
+    <configuration name="KhareSchoolApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
-      <module name="example_20" />
+      <module name="example_24" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rajkhare.khareschool.*" />
@@ -179,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KhareSchoolApplication (1)" />
         <item itemvalue="Application.KhareSchoolApplication (5)" />
         <item itemvalue="Application.KhareSchoolApplication (4)" />
         <item itemvalue="Application.KhareSchoolApplication" />
         <item itemvalue="Application.KhareSchoolApplication (3)" />
-        <item itemvalue="Application.KhareSchoolApplication (2)" />
       </list>
     </recent_temporary>
   </component>
