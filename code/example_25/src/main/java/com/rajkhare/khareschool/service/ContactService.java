@@ -3,16 +3,20 @@ package com.rajkhare.khareschool.service;
 import com.rajkhare.khareschool.model.Contact;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.web.context.annotation.ApplicationScope;
 import org.springframework.web.context.annotation.RequestScope;
+import org.springframework.web.context.annotation.SessionScope;
 
 @Slf4j
 @Service
-@RequestScope
+//@RequestScope
+//@SessionScope
+@ApplicationScope
 public class ContactService {
 
     private int counter = 0;
 
-    public ContactService(int counter) {
+    public ContactService() {
         System.out.println("Contact Service Bean initialized");
     }
 

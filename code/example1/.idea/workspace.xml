@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example_24/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../example_24/src/main/resources/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_25/src/main/java/com/rajkhare/khareschool/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_25/src/main/java/com/rajkhare/khareschool/service/ContactService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +92,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/rajkhare/Raj/Udemy/spring-zero-to-hero/code/example_21/src/main/resources/static/assets/css",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
