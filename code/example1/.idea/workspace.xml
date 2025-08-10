@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example_25/src/main/java/com/rajkhare/khareschool/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_25/src/main/java/com/rajkhare/khareschool/service/ContactService.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +31,13 @@
       <MavenGeneralSettings>
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectColorInfo">{
@@ -66,7 +71,7 @@
     "Application.Example9.executor": "Debug",
     "Application.KhareSchoolApplication (1).executor": "Debug",
     "Application.KhareSchoolApplication (2).executor": "Debug",
-    "Application.KhareSchoolApplication (3).executor": "Run",
+    "Application.KhareSchoolApplication (3).executor": "Debug",
     "Application.KhareSchoolApplication (4).executor": "Debug",
     "Application.KhareSchoolApplication (5).executor": "Debug",
     "Application.KhareSchoolApplication.executor": "Debug",
@@ -88,6 +93,7 @@
     "Maven.example9 [clean].executor": "Run",
     "Maven.example_19 [clean].executor": "Run",
     "Maven.example_24 [clean].executor": "Run",
+    "Maven.example_27 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -97,7 +103,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -112,7 +118,7 @@
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KhareSchoolApplication (2)">
+  <component name="RunManager" selected="Application.KhareSchoolApplication">
     <configuration name="KhareSchoolApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
       <module name="example_24" />
@@ -139,9 +145,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KhareSchoolApplication (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KhareSchoolApplication (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
-      <module name="example_22" />
+      <module name="example_26" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rajkhare.khareschool.*" />
@@ -167,7 +173,7 @@
     </configuration>
     <configuration name="KhareSchoolApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
-      <module name="example_18" />
+      <module name="example_27" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rajkhare.khareschool.*" />
@@ -180,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KhareSchoolApplication" />
+        <item itemvalue="Application.KhareSchoolApplication (3)" />
         <item itemvalue="Application.KhareSchoolApplication (2)" />
         <item itemvalue="Application.KhareSchoolApplication (1)" />
         <item itemvalue="Application.KhareSchoolApplication (5)" />
-        <item itemvalue="Application.KhareSchoolApplication (4)" />
-        <item itemvalue="Application.KhareSchoolApplication" />
       </list>
     </recent_temporary>
   </component>
