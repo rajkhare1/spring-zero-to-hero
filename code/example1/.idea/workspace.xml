@@ -99,7 +99,7 @@
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rajkhare/Raj/Udemy/spring-zero-to-hero/code/example_21/src/main/resources/static/assets/css",
+    "last_opened_file_path": "/Users/rajkhare/Raj/Udemy/spring-zero-to-hero/code/example_29/src/main/resources/templates",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
@@ -108,30 +108,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../example_29/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/../example_29/src/main/resources/static/assets/css" />
+      <recent name="$PROJECT_DIR$/../example_28/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/../example_21/src/main/resources/static/assets/css" />
       <recent name="$PROJECT_DIR$/../example_21/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets/webfonts" />
-      <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets/js" />
-      <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KhareSchoolApplication">
-    <configuration name="KhareSchoolApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
-      <module name="example_24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rajkhare.khareschool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KhareSchoolApplication (5)">
     <configuration name="KhareSchoolApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
       <module name="example_25" />
@@ -158,9 +145,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KhareSchoolApplication (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
+      <module name="example_28" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rajkhare.khareschool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KhareSchoolApplication (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
-      <module name="example_23" />
+      <module name="example_29" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rajkhare.khareschool.*" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KhareSchoolApplication (5)" />
+        <item itemvalue="Application.KhareSchoolApplication (4)" />
         <item itemvalue="Application.KhareSchoolApplication" />
         <item itemvalue="Application.KhareSchoolApplication (3)" />
         <item itemvalue="Application.KhareSchoolApplication (2)" />
-        <item itemvalue="Application.KhareSchoolApplication (1)" />
-        <item itemvalue="Application.KhareSchoolApplication (5)" />
       </list>
     </recent_temporary>
   </component>
