@@ -15,7 +15,7 @@ public class LoginController {
     public String displayLoginPage(@RequestParam(value = "error", required = false) String error,
                                    @RequestParam(value = "logout", required = false) String logout, Model model) {
         String errorMessage = null;
-        if(error !=null) {
+        if(error != null) {
             errorMessage = "Username or Password is incorrect !!";
         }
         if(logout !=null) {
