@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../example_32/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/config/ProjectSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/config/ProjectSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/controller/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/controller/ContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/model/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/service/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_32/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +101,8 @@
     &quot;Maven.example_19 [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.example_24 [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.example_27 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.example_32 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.example_32 [package].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -118,10 +127,10 @@
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KhareSchoolApplication (2)">
-    <configuration name="KhareSchoolApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.KhareSchoolApplication (1)">
+    <configuration name="KhareSchoolApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
-      <module name="example_31" />
+      <module name="example_32" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rajkhare.khareschool.*" />
@@ -132,9 +141,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KhareSchoolApplication (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KhareSchoolApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
-      <module name="example_26" />
+      <module name="example_31" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rajkhare.khareschool.*" />
@@ -186,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KhareSchoolApplication (1)" />
         <item itemvalue="Application.KhareSchoolApplication (2)" />
         <item itemvalue="Application.KhareSchoolApplication" />
         <item itemvalue="Application.KhareSchoolApplication (5)" />
         <item itemvalue="Application.KhareSchoolApplication (4)" />
-        <item itemvalue="Application.KhareSchoolApplication (3)" />
       </list>
     </recent_temporary>
   </component>
