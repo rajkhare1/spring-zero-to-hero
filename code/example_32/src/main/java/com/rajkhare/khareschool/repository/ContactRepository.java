@@ -1,9 +1,17 @@
 package com.rajkhare.khareschool.repository;
 
-import com.rajkhare.khareschool.model.Contact;
+import com.rajkhare.khareschool.models.Contact;
+import com.rajkhare.khareschool.rowmappers.ContactRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.PreparedStatementSetter;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
 /*
 @Repository stereotype annotations is used to add a bean of this class
 type to Spring context and indicate that given bean is used to perform
@@ -13,6 +21,24 @@ DB related operations.
 public class ContactRepository {
 
     private final JdbcTemplate jdbcTemplate;
+    private final RowMapper<Contact> contactRowMapper = (resultSet, rowNum) -> {
+        Contact contact = new Contact();
+        contact.setContactId(resultSet.getInt("CONTACT_ID"));
+        contact.setName(resultSet.getString("NAME"));
+        contact.setMobileNum(resultSet.getString("MOBILE_NUM"));
+        contact.setEmail(resultSet.getString("EMAIL"));
+        contact.setSubject(resultSet.getString("SUBJECT"));
+        contact.setMessage(resultSet.getString("MESSAGE"));
+        contact.setStatus(resultSet.getString("STATUS"));
+        contact.setCreatedAt(resultSet.getTimestamp("CREATED_AT").toLocalDateTime());
+        contact.setCreatedBy(resultSet.getString("CREATED_BY"));
+
+        if(null!=resultSet.getTimestamp("UPDATED_AT")){
+            contact.setUpdatedAt(resultSet.getTimestamp("UPDATED_AT").toLocalDateTime());
+        }
+        contact.setUpdatedBy(resultSet.getString("UPDATED_BY"));
+        return contact;
+    };
 
     @Autowired
     public ContactRepository(JdbcTemplate jdbcTemplate) {
@@ -25,6 +51,16 @@ public class ContactRepository {
         return jdbcTemplate.update(sql,contact.getName(),contact.getMobileNum(),
                 contact.getEmail(),contact.getSubject(),contact.getMessage(),contact.getStatus(),
                 contact.getCreatedAt(),contact.getCreatedBy());
+    }
+
+    public List<Contact> findMsgsWithStatus(String status) {
+        String sql = "SELECT * FROM CONTACT_MSG WHERE STATUS = ?";
+        return jdbcTemplate.query(sql, new PreparedStatementSetter() {
+            @Override
+            public void setValues(PreparedStatement ps) throws SQLException {
+                ps.setString(1, status);
+            }
+        },contactRowMapper);
     }
 
 }
