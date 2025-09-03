@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example_32/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/configs/ProjectSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/configs/ProjectSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/controllers/ContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/repository/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/repository/ContactRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/service/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/aspects/LoggerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../example_32/src/main/java/com/rajkhare/khareschool/aspects/LoggerAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
