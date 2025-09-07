@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../example_32.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="e6e5d967-e3b4-485f-a905-e9d333364179" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +104,7 @@
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rajkhare/Raj/Udemy/spring-zero-to-hero/code/example_33/src/main/resources",
+    "last_opened_file_path": "/Users/rajkhare/Raj/Udemy/spring-zero-to-hero/code/example_34/src/main/resources",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
@@ -115,17 +113,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../example_34/src/main/resources" />
       <recent name="$PROJECT_DIR$/../example_33/src/main/resources" />
       <recent name="$PROJECT_DIR$/../example_32/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/../example_32/src/main/resources/static/assets/css" />
       <recent name="$PROJECT_DIR$/../example_31/src/main/java/com/rajkhare/khareschool/config" />
-      <recent name="$PROJECT_DIR$/../example_31/src/main/resources/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../example_20/src/main/resources/static/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KhareSchoolApplication (3)">
+  <component name="RunManager" selected="Application.KhareSchoolApplication (4)">
     <configuration name="KhareSchoolApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
       <module name="example_32" />
@@ -165,9 +163,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KhareSchoolApplication (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KhareSchoolApplication (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rajkhare.khareschool.KhareSchoolApplication" />
-      <module name="example_29" />
+      <module name="example_34" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rajkhare.khareschool.*" />
@@ -193,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KhareSchoolApplication (4)" />
         <item itemvalue="Application.KhareSchoolApplication (3)" />
         <item itemvalue="Application.KhareSchoolApplication (1)" />
         <item itemvalue="Application.KhareSchoolApplication (2)" />
         <item itemvalue="Application.KhareSchoolApplication" />
-        <item itemvalue="Application.KhareSchoolApplication (5)" />
       </list>
     </recent_temporary>
   </component>
