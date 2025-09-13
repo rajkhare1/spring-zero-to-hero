@@ -1,8 +1,6 @@
 package com.rajkhare.khareschool.repository;
 
-import com.rajkhare.khareschool.constant.EazySchoolConstants;
-import com.rajkhare.khareschool.models.Contact;
-import com.rajkhare.khareschool.rowmappers.ContactRowMapper;
+import com.rajkhare.khareschool.model.Contact;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementSetter;

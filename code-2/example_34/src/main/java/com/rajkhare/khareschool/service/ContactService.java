@@ -1,13 +1,12 @@
 package com.rajkhare.khareschool.service;
 
-import com.rajkhare.khareschool.constant.EazySchoolConstants;
-import com.rajkhare.khareschool.models.Contact;
+import com.rajkhare.khareschool.constants.EazySchoolConstants;
+import com.rajkhare.khareschool.model.Contact;
 import com.rajkhare.khareschool.repository.ContactRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.List;
 

@@ -1,17 +1,12 @@
 package com.rajkhare.khareschool.repository;
 
 
-import com.rajkhare.khareschool.models.Holiday;
+import com.rajkhare.khareschool.model.Holiday;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.PreparedStatementSetter;
 import org.springframework.stereotype.Repository;
 
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Timestamp;
-import java.time.LocalDateTime;
 import java.util.List;
 
 /*
