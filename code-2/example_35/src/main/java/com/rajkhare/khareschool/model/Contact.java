@@ -17,7 +17,7 @@ import lombok.Data;
 public class Contact extends BaseEntity{
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "contact_id")
     private int contactId;
 

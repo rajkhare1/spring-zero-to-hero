@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table
+@Table(name = "holidays")
 public class Holiday extends BaseEntity{
 
     @Id
