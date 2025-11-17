@@ -36,7 +36,7 @@ public class EazySchoolUsernamePwdAuthenticationProvider implements Authenticati
                 passwordEncoder.matches(pwd, person.getPwd())){
             return new UsernamePasswordAuthenticationToken(
                     // pass null to pwd details to spring framework for the security
-                    person.getName(), null, getGrantedAuthorities(person.getRoles()));
+                    email, null, getGrantedAuthorities(person.getRoles()));
         }else{
             throw new BadCredentialsException("Invalid credentials!");
         }
