@@ -44,18 +44,18 @@ public class ContactService {
         int pageSize = 5;
         Pageable pageable = PageRequest.of(pageNum - 1, pageSize, sortDir.equals("asc") ? Sort.by(sortField).ascending()
                 : Sort.by(sortField).descending());
-        Page<Contact> msgPage = contactRepository.findByStatus(EazySchoolConstants.OPEN, pageable);
+        Page<Contact> msgPage = contactRepository.findByStatus(EazySchoolConstants.OPEN, pageable);//@Query
+//        Page<Contact> msgPage = contactRepository.findOpenMsgs(EazySchoolConstants.OPEN, pageable);//@NamedQuery
+//        Page<Contact> msgPage = contactRepository.findOpenMsgs(EazySchoolConstants.OPEN, pageable);//@NamedQueryNative
         return msgPage;
     }
 
     public boolean updateMsgStatus(int contactId){
         boolean isUpdated = false;
-        Optional<Contact> contact = contactRepository.findById(contactId);
-        contact.ifPresent(contact1 -> {
-            contact1.setStatus(EazySchoolConstants.CLOSE);
-        });
-        Contact updatedContact = contactRepository.save(contact.get());
-        if(null != updatedContact && updatedContact.getUpdatedBy()!=null) {
+        int rows = contactRepository.updateStatusById(EazySchoolConstants.CLOSE, contactId);//@Query
+//        int rows = contactRepository.updateMsgStatus(EazySchoolConstants.CLOSE, contactId);//@NamedQuery
+//        int rows = contactRepository.updateMsgStatus(EazySchoolConstants.CLOSE, contactId);//@NamedQueryNavtive
+        if(rows > 0) {
             isUpdated = true;
         }
         return isUpdated;
