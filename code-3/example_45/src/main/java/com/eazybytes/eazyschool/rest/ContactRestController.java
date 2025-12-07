@@ -8,7 +8,6 @@ import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,20 +17,20 @@ import java.util.stream.Collectors;
 @Slf4j
 @RestController
 @RequestMapping(path = "/api/contact",produces = {MediaType.APPLICATION_JSON_VALUE,MediaType.APPLICATION_XML_VALUE})
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins="*")
 public class ContactRestController {
 
     @Autowired
     ContactRepository contactRepository;
 
     @GetMapping("/getMessagesByStatus")
-//    @ResponseBody
-    public List<Contact> getMessagesByStatus(@RequestParam(name = "status") String status) {
+    //@ResponseBody
+    public List<Contact> getMessagesByStatus(@RequestParam(name = "status")  String status){
         return contactRepository.findByStatus(status);
     }
 
     @GetMapping("/getAllMsgsByStatus")
-//    @ResponseBody
+    //@ResponseBody
     public List<Contact> getAllMsgsByStatus(@RequestBody Contact contact){
         if(null != contact && null != contact.getStatus()){
             return contactRepository.findByStatus(contact.getStatus());
@@ -41,6 +40,7 @@ public class ContactRestController {
     }
 
     @PostMapping("/saveMsg")
+    // @ResponseBody
     public ResponseEntity<Response> saveMsg(@RequestHeader("invocationFrom") String invocationFrom,
                                             @Valid @RequestBody Contact contact){
         log.info(String.format("Header invocationFrom = %s", invocationFrom));
@@ -84,7 +84,6 @@ public class ContactRestController {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
                     .body(response);
-
         }
         response.setStatusCode("200");
         response.setStatusMsg("Message successfully closed");
@@ -92,5 +91,4 @@ public class ContactRestController {
                 .status(HttpStatus.OK)
                 .body(response);
     }
-
 }
