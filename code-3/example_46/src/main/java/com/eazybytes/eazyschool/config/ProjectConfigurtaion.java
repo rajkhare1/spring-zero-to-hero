@@ -5,6 +5,8 @@ import org.springframework.boot.restclient.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.reactive.function.client.ExchangeFilterFunctions;
+import org.springframework.web.reactive.function.client.WebClient;
 
 @Configuration
 public class ProjectConfigurtaion {
@@ -19,6 +21,13 @@ public class ProjectConfigurtaion {
         RestTemplateBuilder restTemplateBuilder = new RestTemplateBuilder();
         return restTemplateBuilder
                 .basicAuthentication("admin@eazyschool.com", "admin")
+                .build();
+    }
+
+    @Bean
+    public WebClient webClient() {
+        return WebClient.builder()
+                .filter(ExchangeFilterFunctions.basicAuthentication("admin@eazyschool.com", "admin"))
                 .build();
     }
 
